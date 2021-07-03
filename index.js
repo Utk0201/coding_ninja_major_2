@@ -16,7 +16,7 @@ app.use('/',require('./routes/index'));
 const db = require('./config/mongoose');
 
 app.listen(3000,()=>{
-    console.log('app started at port 3000'); 
-}); 
+    console.log('app started at port 3000');
+});
 
 
